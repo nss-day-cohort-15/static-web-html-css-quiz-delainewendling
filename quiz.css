@@ -1,11 +1,58 @@
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Galada', cursive;
+  font-size: 2em;
+}
+
 .card {
   display: inline-block;
   width: 30%;
-  margin: 1.5% 1.5%;
+  margin: 1.4% 1.4%;
+  border: solid lightblue 1px;
 }
 
 .productImg {
   height: 200px;
   max-width: 100%;
-  margin: 0 auto;
+}
+.availability {
+  text-align: center;
+  color: yellow;
+  background-color: #555;
+}
+
+.productName {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: dotted lightgrey 1px;
+  text-align: center;
+  width: 85%;
+  margin: 3% auto;
+  padding: 3%;
+}
+
+.description {
+  text-align: justify;
+  padding: 5%;
+}
+
+.specifications p, 
+.pricing,
+.quantityPricing {
+  padding: 2% 5%;
+}
+
+.pricing {
+  font-weight: bold;
 }
